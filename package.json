@@ -1,0 +1,25 @@
+{
+    "name": "instabug-task",
+    "version": "1.0.0",
+    "description": "it's a task for Frontend Intern in Instabug company",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass SASS/main.scss CSS/style.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ahmed-Roshdy-1/Instabug-task.git"
+    },
+    "keywords": [
+        "Instabug"
+    ],
+    "author": "Ahmed Roshdy",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Ahmed-Roshdy-1/Instabug-task/issues"
+    },
+    "homepage": "https://github.com/Ahmed-Roshdy-1/Instabug-task#readme",
+    "devDependencies": {
+        "node-sass": "^7.0.1"
+    }
+}
