@@ -1,0 +1,17 @@
+.google {
+    background-color: #4285f4;
+}
+.github {
+    background-color: #333;
+    & img {
+        border-radius: 2rem;
+        background-color: transparent !important;
+    }
+}
+
+.microsoft {
+    border: 1px solid #333;
+    & span {
+        color: #333 !important;
+    }
+}

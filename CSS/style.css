@@ -64,7 +64,7 @@ body {
     align-items: center; }
     .Login-section__login .login-info {
       width: 60%;
-      height: 70vh;
+      height: 72vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -102,21 +102,118 @@ body {
         color: #445065;
         font-size: 1.5rem;
         letter-spacing: 0.1rem; }
-      .Login-section__login .login-container .google-icon {
+      .Login-section__login .login-container .icon {
         height: 3.5rem;
         width: 40rem;
-        background-color: #4285f4;
         display: flex;
         align-items: center;
         justify-content: flex-start;
         margin-top: 1rem;
         border-radius: 0.5rem;
         cursor: pointer; }
-        .Login-section__login .login-container .google-icon img {
+        .Login-section__login .login-container .icon img {
           width: 3rem;
           height: 3rem;
           background-color: #fff;
           margin: 1rem 15rem 1rem 1rem; }
-        .Login-section__login .login-container .google-icon span {
+        .Login-section__login .login-container .icon span {
           color: #fff;
-          font-size: 1.2rem; }
+          font-size: 1.5rem; }
+      .Login-section__login .login-container .lines {
+        width: 100%;
+        height: 4rem;
+        position: relative; }
+        .Login-section__login .login-container .lines::after, .Login-section__login .login-container .lines::before {
+          content: "";
+          position: absolute;
+          margin: auto;
+          height: 0.2rem;
+          background-color: rgba(81, 80, 80, 0.303);
+          width: 45%;
+          top: 45%; }
+        .Login-section__login .login-container .lines::after {
+          left: 0; }
+        .Login-section__login .login-container .lines::before {
+          right: 0; }
+        .Login-section__login .login-container .lines span {
+          font-size: 1.5rem;
+          font-weight: 600;
+          position: absolute;
+          top: 20%;
+          bottom: 0;
+          left: 47%;
+          right: 0;
+          margin: auto; }
+      .Login-section__login .login-container .loginform {
+        width: 90%; }
+        .Login-section__login .login-container .loginform .massage {
+          width: 100%;
+          height: 4rem;
+          background-color: #fa3e3e7d;
+          display: flex;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          color: #445065;
+          margin-bottom: 1rem;
+          border: 1px solid rgba(36, 29, 29, 0.507);
+          border-radius: 0.5rem; }
+        .Login-section__login .login-container .loginform .form-group {
+          height: 7rem; }
+          .Login-section__login .login-container .loginform .form-group label {
+            position: relative;
+            bottom: 3px;
+            font-size: 1.5rem;
+            color: #858585; }
+          .Login-section__login .login-container .loginform .form-group input {
+            width: 100%;
+            height: 4rem;
+            padding: 1rem;
+            background: #fff;
+            border: 1px solid rgba(133, 133, 133, 0.663);
+            border-radius: 5px;
+            outline: none;
+            transition: all 0.5s; }
+            .Login-section__login .login-container .loginform .form-group input:valid {
+              background-color: #bde0fe;
+              border: 3px solid #55d7fe; }
+            .Login-section__login .login-container .loginform .form-group input:invalid {
+              border: 3px solid #fe55557d; }
+        .Login-section__login .login-container .loginform button {
+          width: 100%;
+          height: 4rem;
+          background-color: #246aff;
+          color: #fff;
+          border-radius: 0.5rem;
+          font-size: 1.7rem;
+          font-weight: 700; }
+          .Login-section__login .login-container .loginform button:hover {
+            background-color: #01b6ed; }
+          .Login-section__login .login-container .loginform button:disabled {
+            background-color: #ccc;
+            color: #fff; }
+        .Login-section__login .login-container .loginform .otherOptions {
+          font-size: 1.2rem;
+          margin-top: 1rem;
+          display: flex;
+          justify-content: space-between; }
+          .Login-section__login .login-container .loginform .otherOptions span {
+            font-size: 1.4rem;
+            color: #246aff;
+            cursor: pointer; }
+            .Login-section__login .login-container .loginform .otherOptions span:hover {
+              color: #445065; }
+
+.google {
+  background-color: #4285f4; }
+
+.github {
+  background-color: #333; }
+  .github img {
+    border-radius: 2rem;
+    background-color: transparent !important; }
+
+.microsoft {
+  border: 1px solid #333; }
+  .microsoft span {
+    color: #333 !important; }
