@@ -8,7 +8,7 @@ var sliderinfo = document.getElementById("info");
 
 var headerInfo = [
     "Accelerate Your entire Mobile Team Workflow",
-    "the Most comprehensive Bug Reporting tool for Mobile Apps",
+    "the Most Comprehensive Bug Reporting Tool For Mobile Apps",
     "Secure Crash Reporting With Real-Time Alerts",
 ];
 

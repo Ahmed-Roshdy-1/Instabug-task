@@ -25,6 +25,7 @@
             & h1 {
                 margin: 3rem auto;
                 font-size: 2rem;
+                color: $color-white;
             }
         }
 
@@ -55,5 +56,82 @@
         width: 100%;
         height: 100vh;
         background-color: $color-backgtoud;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & .login-info {
+            width: 60%;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+        }
+
+        & .icon-container {
+            width: 5rem;
+            height: 5rem;
+            position: absolute;
+            border-radius: 1rem;
+            padding: 1rem;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+            background-color: $color-white;
+            box-shadow: 0 7px 12px 0 rgba(21, 35, 60, 0.09);
+            top: -2rem;
+            z-index: 1;
+
+            & .bug-icon {
+                width: 100%;
+                height: 100%;
+                align-self: center;
+            }
+        }
+
+        & .login-container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background-color: $color-white;
+            border-radius: 1.5rem;
+            box-shadow: 0 7px 12px 0 rgba(21, 35, 60, 0.09);
+            display: flex;
+            align-items: center;
+            // justify-content: center;
+            flex-direction: column;
+
+            & .login-header {
+                margin-top: 5rem;
+                color: $color-text-dark;
+                font-size: 1.5rem;
+                letter-spacing: 0.1rem;
+            }
+
+            & .google-icon {
+                height: 3.5rem;
+                width: 40rem;
+                background-color: #4285f4;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-top: 1rem;
+                border-radius: 0.5rem;
+                cursor: pointer;
+
+                & img {
+                    width: 3rem;
+                    height: 3rem;
+                    background-color: $color-white;
+                    margin: 1rem 15rem 1rem 1rem;
+                }
+                & span {
+                    color: $color-white;
+                    font-size: 1.2rem;
+                }
+            }
+        }
     }
 }
