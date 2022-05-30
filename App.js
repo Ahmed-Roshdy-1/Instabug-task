@@ -45,3 +45,32 @@ slider3.addEventListener("click", () => {
 });
 
 //End Slider Navigation functionality
+
+//  Login Functionality
+
+var data = [
+    { email: "mohamed@instabug.com", password: "A12345678" },
+    { email: "mohamed1@instabug.com", password: "A12345678" },
+    { email: "mohamed2@instabug.com", password: "A12345678" },
+    { email: "mohamed3@instabug.com", password: "A12345678" },
+    { email: "mohamed4@instabug.com", password: "A12345678" },
+    { email: "mohamed5@instabug.com", password: "A12345678" },
+    { email: "mohamed6@instabug.com", password: "A12345678" },
+    { email: "mohamed7@instabug.com", password: "A12345678" },
+];
+
+function Loginfunction() {
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    var massage = document.getElementById("massage");
+    var f = 0;
+    for (let i = 0; i < data.length; i++) {
+        console.log(email, data[i].email);
+        if (email == data[i].email && password == data[i].password) {
+            window.location.href = "pages/welcome.html";
+            f = 1;
+        }
+    }
+
+    if (f == 0) massage.style.display = "flex";
+}

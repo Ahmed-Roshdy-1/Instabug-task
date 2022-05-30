@@ -157,7 +157,8 @@ body {
           color: #445065;
           margin-bottom: 1rem;
           border: 1px solid rgba(36, 29, 29, 0.507);
-          border-radius: 0.5rem; }
+          border-radius: 0.5rem;
+          display: none; }
         .Login-section__login .login-container .loginform .form-group {
           height: 7rem; }
           .Login-section__login .login-container .loginform .form-group label {
@@ -179,19 +180,19 @@ body {
               border: 3px solid #55d7fe; }
             .Login-section__login .login-container .loginform .form-group input:invalid {
               border: 3px solid #fe55557d; }
-        .Login-section__login .login-container .loginform button {
+        .Login-section__login .login-container .loginform .button {
           width: 100%;
           height: 4rem;
           background-color: #246aff;
           color: #fff;
           border-radius: 0.5rem;
           font-size: 1.7rem;
-          font-weight: 700; }
-          .Login-section__login .login-container .loginform button:hover {
+          font-weight: 700;
+          cursor: pointer; }
+          .Login-section__login .login-container .loginform .button:hover {
             background-color: #01b6ed; }
-          .Login-section__login .login-container .loginform button:disabled {
-            background-color: #ccc;
-            color: #fff; }
+          .Login-section__login .login-container .loginform .button:checked {
+            background-color: #333; }
         .Login-section__login .login-container .loginform .otherOptions {
           font-size: 1.2rem;
           margin-top: 1rem;
