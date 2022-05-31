@@ -61,6 +61,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
+    .Login-section__login .text p {
+      margin-top: 1.5rem;
+      color: #6f6f6f;
+      font-size: 1.2rem; }
     .Login-section__login .login-info {
       width: 60%;
       height: 72vh;
@@ -228,6 +232,23 @@ body {
     box-shadow: 0.5rem 0.5rem 1rem #333; }
     #welcomePage .Logout:hover {
       background-color: #007da3; }
+
+#page404 {
+  background-color: #f2f4f8; }
+  #page404 div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    #page404 div h1 {
+      color: #002166;
+      font-size: 2.5rem;
+      margin-bottom: 1rem; }
+    #page404 div p {
+      color: #246aff;
+      font-size: 1.5rem; }
 
 .google {
   background-color: #4285f4; }

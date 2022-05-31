@@ -61,6 +61,14 @@
         justify-content: center;
         align-items: center;
 
+        & .text {
+            & p {
+                margin-top: 1.5rem;
+                color: rgb(111, 111, 111);
+                font-size: 1.2rem;
+            }
+        }
+
         & .login-info {
             width: 60%;
             height: 72vh;
