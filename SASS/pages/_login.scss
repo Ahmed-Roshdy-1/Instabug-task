@@ -7,6 +7,7 @@
         height: 100vh;
         position: relative;
         overflow: hidden;
+        background-color: $color-primary;
 
         & .info {
             display: flex;
@@ -17,7 +18,7 @@
 
             & .m {
                 height: 50rem;
-                width: 100%;
+                width: 65%;
                 margin: 5rem 0 0 0;
                 transition: all 0.15s ease;
             }

@@ -74,3 +74,7 @@ function Loginfunction() {
 
     if (f == 0) massage.style.display = "flex";
 }
+
+function Logoutfunctiom() {
+    window.location.href = "../index.html";
+}

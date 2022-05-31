@@ -11,8 +11,6 @@ html {
 
 body {
   box-sizing: border-box;
-  color: #002166;
-  background-color: #002166;
   font-family: Inter, sans-serif; }
 
 .Login-section {
@@ -22,7 +20,8 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
-    overflow: hidden; }
+    overflow: hidden;
+    background-color: #002166; }
     .Login-section__slider .info {
       display: flex;
       width: 100%;
@@ -31,7 +30,7 @@ body {
       flex-direction: column; }
       .Login-section__slider .info .m {
         height: 50rem;
-        width: 100%;
+        width: 65%;
         margin: 5rem 0 0 0;
         transition: all 0.15s ease; }
       .Login-section__slider .info h1 {
@@ -204,6 +203,31 @@ body {
             cursor: pointer; }
             .Login-section__login .login-container .loginform .otherOptions span:hover {
               color: #445065; }
+
+#welcomePage {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1540' height='1000' preserveAspectRatio='none' viewBox='0 0 1540 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1029%26quot%3b)' fill='none'%3e%3crect width='1540' height='1000' x='0' y='0' fill='rgba(142%2c 202%2c 230%2c 1)'%3e%3c/rect%3e%3cpath d='M1244.92%2c792.977C1317.985%2c791.302%2c1388.157%2c760.774%2c1426.338%2c698.456C1466.268%2c633.283%2c1472.928%2c550.322%2c1433.825%2c484.65C1395.509%2c420.3%2c1319.812%2c394.17%2c1244.92%2c393.774C1169.208%2c393.374%2c1092.74%2c418.485%2c1052.527%2c482.636C1009.924%2c550.599%2c1006.236%2c638.944%2c1048.5%2c707.118C1088.853%2c772.209%2c1168.355%2c794.732%2c1244.92%2c792.977' fill='rgba(28%2c 113%2c 142%2c 0.23)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1273.122%2c1059.714C1318.974%2c1059.673%2c1367.941%2c1044.996%2c1388.823%2c1004.175C1408.527%2c965.657%2c1383.433%2c923.645%2c1361.935%2c886.099C1340.234%2c848.199%2c1316.746%2c804.176%2c1273.122%2c802.103C1227.191%2c799.92%2c1191.263%2c837.017%2c1168.379%2c876.901C1145.624%2c916.56%2c1134.333%2c964.708%2c1157.063%2c1004.381C1179.899%2c1044.238%2c1227.187%2c1059.755%2c1273.122%2c1059.714' fill='rgba(28%2c 113%2c 142%2c 0.23)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1159.449%2c837.455C1212.897%2c839.863%2c1270.308%2c824.711%2c1297.056%2c778.375C1323.801%2c732.043%2c1309.981%2c673.567%2c1279.389%2c629.68C1252.941%2c591.738%2c1205.68%2c582.296%2c1159.449%2c580.965C1109.86%2c579.537%2c1053.452%2c580.493%2c1026.917%2c622.41C999.166%2c666.249%2c1014.541%2c722.704%2c1041.763%2c766.873C1067.486%2c808.61%2c1110.472%2c835.249%2c1159.449%2c837.455' fill='rgba(28%2c 113%2c 142%2c 0.23)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1541.028%2c988.889C1617.206%2c991.876%2c1681.061%2c933.239%2c1714.618%2c864.785C1744.474%2c803.881%2c1730.765%2c733.269%2c1694.406%2c676.01C1660.86%2c623.182%2c1603.49%2c595.239%2c1541.028%2c591.412C1469.653%2c587.039%2c1387.175%2c593.164%2c1351.236%2c654.986C1315.193%2c716.987%2c1354.079%2c789.688%2c1389.518%2c852.036C1425.562%2c915.449%2c1468.143%2c986.031%2c1541.028%2c988.889' fill='rgba(28%2c 113%2c 142%2c 0.23)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-14.847%2c974.633C23.38%2c972.208%2c56.156%2c951.838%2c77.371%2c919.945C101.703%2c883.366%2c121.034%2c838.863%2c101.712%2c799.407C80.526%2c756.145%2c33.306%2c730.319%2c-14.847%2c731.631C-60.998%2c732.889%2c-98.012%2c765.378%2c-120.898%2c805.474C-143.554%2c845.168%2c-154.112%2c894.366%2c-129.835%2c933.09C-106.633%2c970.098%2c-58.439%2c977.399%2c-14.847%2c974.633' fill='rgba(28%2c 113%2c 142%2c 0.23)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M278.807%2c474.678C361.356%2c479.409%2c451.121%2c452.383%2c489.64%2c379.219C526.508%2c309.191%2c483.66%2c230.596%2c443.079%2c162.652C403.96%2c97.156%2c354.919%2c31.411%2c278.807%2c26.224C194.688%2c20.491%2c109.574%2c62.518%2c70.563%2c137.264C33.732%2c207.835%2c64.242%2c289.495%2c106.05%2c357.236C145.247%2c420.745%2c204.298%2c470.408%2c278.807%2c474.678' fill='rgba(28%2c 113%2c 142%2c 0.23)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1432.517%2c872.427C1515.076%2c875.142%2c1604.293%2c863.617%2c1650.407%2c795.083C1701.248%2c719.524%2c1706.38%2c616.125%2c1656.035%2c540.235C1609.558%2c470.177%2c1516.361%2c460.433%2c1432.517%2c466.637C1360.877%2c471.938%2c1297.518%2c508.429%2c1259.78%2c569.554C1219.79%2c634.328%2c1200.398%2c715.399%2c1238.111%2c781.524C1276.096%2c848.126%2c1355.886%2c869.907%2c1432.517%2c872.427' fill='rgba(28%2c 113%2c 142%2c 0.23)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M201.454%2c339.99C280.026%2c338.046%2c358.65%2c306.787%2c396.256%2c237.771C432.561%2c171.143%2c409.451%2c92.826%2c372.125%2c26.765C334.015%2c-40.684%2c278.921%2c-106.203%2c201.454%2c-107C122.998%2c-107.807%2c64.867%2c-44.143%2c24.592%2c23.191C-17.115%2c92.919%2c-50.397%2c176.899%2c-10.791%2c247.842C29.505%2c320.021%2c118.813%2c342.035%2c201.454%2c339.99' fill='rgba(28%2c 113%2c 142%2c 0.23)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M110.289%2c474.552C157.824%2c472.521%2c199.277%2c445.851%2c223.966%2c405.18C249.743%2c362.717%2c259.15%2c310.893%2c236.464%2c266.701C211.826%2c218.707%2c164.186%2c186.109%2c110.289%2c183.741C52.042%2c181.182%2c-7.856%2c204.016%2c-36.669%2c254.702C-65.214%2c304.916%2c-53.654%2c367.648%2c-21.555%2c415.669C7.114%2c458.558%2c58.748%2c476.754%2c110.289%2c474.552' fill='rgba(28%2c 113%2c 142%2c 0.23)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1029'%3e%3crect width='1540' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e"); }
+  #welcomePage div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  #welcomePage h1 {
+    margin-bottom: 15rem;
+    color: #445065;
+    font-size: 2rem; }
+  #welcomePage .Logout {
+    width: 25rem;
+    height: 4rem;
+    background-color: #246aff;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0.5rem 0.5rem 1rem #333; }
+    #welcomePage .Logout:hover {
+      background-color: #007da3; }
 
 .google {
   background-color: #4285f4; }
